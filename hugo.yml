@@ -19,17 +19,16 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: zhxqian3
   # author: ["Me", "You"] # multiple authors
-  images: ["https://avatars.githubusercontent.com/u/140838276?v=4"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
