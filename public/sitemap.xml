@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhxqian3.github.io/posts/</loc>
+    <loc>https://zhxqian3.github.io/proxy/</loc>
     <lastmod>2023-09-07T15:38:00+08:00</lastmod>
   </url><url>
     <loc>https://zhxqian3.github.io/</loc>
@@ -14,10 +14,13 @@
     <loc>https://zhxqian3.github.io/tags/</loc>
     <lastmod>2023-09-07T15:38:00+08:00</lastmod>
   </url><url>
-    <loc>https://zhxqian3.github.io/posts/infinity/</loc>
+    <loc>https://zhxqian3.github.io/proxy/infinity/</loc>
     <lastmod>2023-09-07T15:38:00+08:00</lastmod>
   </url><url>
     <loc>https://zhxqian3.github.io/posts/my-first-post/</loc>
+    <lastmod>2023-09-07T13:42:05+08:00</lastmod>
+  </url><url>
+    <loc>https://zhxqian3.github.io/posts/</loc>
     <lastmod>2023-09-07T13:42:05+08:00</lastmod>
   </url><url>
     <loc>https://zhxqian3.github.io/archives/</loc>

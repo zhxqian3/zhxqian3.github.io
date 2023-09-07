@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>zhxqian3的小记</title>
-    <link>https://zhxqian3.github.io/</link>
-    <description>Recent content on zhxqian3的小记</description>
+    <title>Proxies on zhxqian3的小记</title>
+    <link>https://zhxqian3.github.io/proxy/</link>
+    <description>Recent content in Proxies on zhxqian3的小记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 15:38:00 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 15:38:00 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/proxy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>配置无下限</title>
       <link>https://zhxqian3.github.io/proxy/infinity/</link>
@@ -18,17 +18,6 @@ v2ray v5格式配置 v2ray从它的5.*版本以上就可以使用v5格式的配�
 /v2ray run -c $configure_file_name -format jsonv5 对于配置文件，我只给出在服务端的大概配置，示例协议为Vmess+grpc，如下：
 { &amp;#34;log&amp;#34;: { &amp;#34;access&amp;#34;: { &amp;#34;type&amp;#34;: &amp;#34;File&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;string&amp;#34;, &amp;#34;level&amp;#34;: &amp;#34;Info&amp;#34; }, &amp;#34;error&amp;#34;: { &amp;#34;type&amp;#34;: &amp;#34;File&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;string&amp;#34;, &amp;#34;level&amp;#34;: &amp;#34;Error&amp;#34; } }, &amp;#34;router&amp;#34;: { &amp;#34;domainStrategy&amp;#34;: &amp;#34;IpIfNonMatch&amp;#34;, &amp;#34;rule&amp;#34;: [ { &amp;#34;tag&amp;#34;: &amp;#34;block&amp;#34;, &amp;#34;geoDomain&amp;#34;: [ { &amp;#34;code&amp;#34;: &amp;#34;cn&amp;#34;, &amp;#34;filePath&amp;#34;: &amp;#34;string&amp;#34; } ] }, { &amp;#34;tag&amp;#34;: &amp;#34;block&amp;#34;, &amp;#34;geoip&amp;#34;: [ { &amp;#34;inverseMatch&amp;#34;: false, &amp;#34;code&amp;#34;: &amp;#34;cn&amp;#34;, &amp;#34;filePath&amp;#34;: &amp;#34;string&amp;#34; } ] } ] }, &amp;#34;inbounds&amp;#34;: [ { &amp;#34;protocol&amp;#34;:&amp;#34;vmess&amp;#34;, &amp;#34;settings&amp;#34;:{ &amp;#34;users&amp;#34;: [&amp;#34;UID&amp;#34;] }, &amp;#34;port&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;listen&amp;#34;:&amp;#34;127.</description>
     </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://zhxqian3.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 07 Sep 2023 13:42:05 +0800</pubDate>
-      
-      <guid>https://zhxqian3.github.io/posts/my-first-post/</guid>
-      <description>本人是一个小垃圾，第一篇post就记下2021年夏天遇见的那个女生吧，虽然到现在都没有相互认识，但她对我影响却很大，可能是蓦然回首的那一瞬间吧，曾经激励着我努力奋斗，达到目标后就去接近她，虽然那个小目标达到了，但我却仍没有去找她（主要是没有勇气）。。
-emmm，就这样吧，感谢她让我不会变得比现在还垃圾。最后，祝你和我的未来都能变好，小芊。</description>
-    </item>
-    
     
   </channel>
 </rss>

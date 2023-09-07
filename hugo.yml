@@ -38,6 +38,10 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+  mainSections:
+    - posts
+    - proxy
+
 
   label:
     text: "Home"
