@@ -89,5 +89,15 @@ menu:
     - name: 标签
       url: /tags/
       weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search
+      weight: 30
+
 taxonomies:
   tag: tags
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
