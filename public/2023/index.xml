@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>zhxqian3的小记</title>
-    <link>https://zhxqian3.github.io/</link>
-    <description>Recent content on zhxqian3的小记</description>
+    <title>2023s on zhxqian3的小记</title>
+    <link>https://zhxqian3.github.io/2023/</link>
+    <description>Recent content in 2023s on zhxqian3的小记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 13:42:05 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 13:42:05 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://zhxqian3.github.io/2023/my-first-post/</link>
@@ -15,8 +15,6 @@
       <guid>https://zhxqian3.github.io/2023/my-first-post/</guid>
       <description>我的第一篇post</description>
     </item>
-    
-    
     
   </channel>
 </rss>

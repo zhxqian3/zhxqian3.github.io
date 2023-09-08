@@ -39,8 +39,11 @@ params:
   showtoc: true
   tocopen: false
   mainSections:
-    - posts
-
+    - 2023
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon/favicon.png"
 
   label:
     text: "Home"
