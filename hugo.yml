@@ -40,7 +40,6 @@ params:
   tocopen: false
   mainSections:
     - posts
-    - proxy
 
 
   label:
