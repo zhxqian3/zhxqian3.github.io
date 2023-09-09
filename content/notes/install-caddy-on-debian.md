@@ -2,7 +2,7 @@
 title = '在debian上安装caddy'
 date = 2023-09-09T15:52:04+08:00
 draft = false
-tags = ["notes"]
+tags = ["notes","update"]
 searchHidden = false
 showToc = true
 author = ["zhxqian3"]
@@ -30,3 +30,6 @@ sudo apt update
 ```
 sudo apt install caddy
 ```
+
+---
+Last update:2023-9-9
