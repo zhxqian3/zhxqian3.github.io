@@ -6,7 +6,16 @@
     <description>Recent content on zhxqian3的小记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Sep 2023 15:52:04 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 17:14:38 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开学了</title>
+      <link>https://zhxqian3.github.io/2023/2023-09-10/</link>
+      <pubDate>Sun, 10 Sep 2023 17:14:38 +0800</pubDate>
+      
+      <guid>https://zhxqian3.github.io/2023/2023-09-10/</guid>
+      <description>艹，变成大四老东西了</description>
+    </item>
+    
     <item>
       <title>在debian上安装caddy</title>
       <link>https://zhxqian3.github.io/notes/install-caddy-on-debian/</link>
