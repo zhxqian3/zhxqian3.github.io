@@ -61,8 +61,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi"
-    Content: Welcome to my blog
+    Title: "你好吗？"
+    Content: "我很好"
 
   socialIcons:
 
