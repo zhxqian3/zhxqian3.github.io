@@ -8,11 +8,11 @@ showToc = true
 author = ["zhxqian3"]
 summary = "看完了玉子市场和玉子爱情故事"
 [cover]
-image = "/2023/yuzishichang.png" 
+image = "yuzishichang.png" 
 hidden = true 
 +++
 
 看完了玉子市场和玉子爱情故事，非常好看，所以我推荐它们。
 
 但是，一回想起现实世界后，才明白这故事情节和人物形象也太虚幻了，至少对我来说是这样。
-![玉子爱情故事](/2023/yuzilovestory.png)
+![玉子爱情故事](yuzilovestory.png)

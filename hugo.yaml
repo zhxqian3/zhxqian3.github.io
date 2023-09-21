@@ -3,6 +3,16 @@ title: zhxqian3的小记
 paginate: 5
 theme: PaperMod
 
+languages:
+  zh-cn:
+    title: "zhxqian3的小记"
+    contentDir: "content"
+    languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn" # 设置默认语言为中文
+defaultContentLanguageInSubdir: false # 设置默认语言是否在子目录中
+hasCJKLanguage: true # 设置是否有CJK（中日韩）语言
+
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -51,7 +61,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi"
     Content: Welcome to my blog
 
   socialIcons:
@@ -92,11 +102,9 @@ menu:
       weight: 20
     - identifier: search
       name: 搜索
-      url: /search
+      url: /search/
       weight: 30
 
-taxonomies:
-  tag: tags
 outputs:
   home:
     - HTML

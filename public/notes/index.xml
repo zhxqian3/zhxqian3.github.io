@@ -5,7 +5,7 @@
     <link>https://zhxqian3.github.io/notes/</link>
     <description>Recent content in Notes on zhxqian3的小记</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Sep 2023 15:52:04 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在debian上安装caddy</title>
@@ -18,10 +18,10 @@
     
     <item>
       <title>使用certbot申请ssl证书</title>
-      <link>https://zhxqian3.github.io/notes/cerbot-use/</link>
+      <link>https://zhxqian3.github.io/notes/certbot-use/</link>
       <pubDate>Sat, 09 Sep 2023 15:48:01 +0800</pubDate>
       
-      <guid>https://zhxqian3.github.io/notes/cerbot-use/</guid>
+      <guid>https://zhxqian3.github.io/notes/certbot-use/</guid>
       <description>。。</description>
     </item>
     

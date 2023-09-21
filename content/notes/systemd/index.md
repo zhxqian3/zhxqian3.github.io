@@ -108,7 +108,7 @@ WantedBy=timers.target
 
 ## 常用命令解释
 
-![systemd-img1](/notes/systemd-img1.png)
+![systemd-img1](systemd-img1.png)
 
 ## 寻找错误
 
