@@ -6,7 +6,16 @@
     <description>Recent content on zhxqian3的小记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Sep 2023 22:34:44 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Sep 2023 18:05:35 +0800</lastBuildDate><atom:link href="https://zhxqian3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录一下在git上的一些设置</title>
+      <link>https://zhxqian3.github.io/notes/about-git-setting/</link>
+      <pubDate>Fri, 22 Sep 2023 18:05:35 +0800</pubDate>
+      
+      <guid>https://zhxqian3.github.io/notes/about-git-setting/</guid>
+      <description>如题</description>
+    </item>
+    
     <item>
       <title>2023-09-21</title>
       <link>https://zhxqian3.github.io/2023/2023-09-21/</link>
