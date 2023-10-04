@@ -1,5 +1,4 @@
 baseURL: "https://zhxqian3.github.io/"
-title: zhxqian3的小记
 paginate: 5
 theme: PaperMod
 
@@ -8,10 +7,9 @@ languages:
     title: "zhxqian3的小记"
     contentDir: "content"
     languageCode: "zh-cn"
-defaultContentLanguage: "zh-cn" # 设置默认语言为中文
-defaultContentLanguageInSubdir: false # 设置默认语言是否在子目录中
-hasCJKLanguage: true # 设置是否有CJK（中日韩）语言
-
+defaultContentLanguage: "zh-cn"
+defaultContentLanguageInSubdir: false
+hasCJKLanguage: true
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -19,20 +17,15 @@ buildFuture: false
 buildExpired: false
 
 minify:
-  disableXML: true
+  disableXML: false
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: zhxqian3的小记
-  description: "记录一下"
-  keywords: [Blog, Portfolio, PaperMod]
+  env: production
   author: zhxqian3
-  # author: ["Me", "You"] # multiple authors
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
-
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
@@ -41,38 +34,28 @@ params:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
-  disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
   hideSummary: false
   showtoc: true
-  tocopen: false
+  tocopen: true
   mainSections:
     - 2023
     - notes
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "/favicon/favicon.png"
-
   label:
     text: "Home"
-
-  # home-info mode
   homeInfoParams:
     Title: "你好吗？"
     Content: "我很好"
-
   socialIcons:
-
   cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
+    hidden: false
+    hiddenInList: true
+    hiddenInSingle: true
   # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -81,29 +64,19 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
 
 menu:
   main:
     - name: 存档
       url: /archives/
-      weight: 10
+      weight: 1
     - name: 标签
       url: /tags/
-      weight: 20
+      weight: 2
     - identifier: search
       name: 搜索
       url: /search/
-      weight: 30
+      weight: 3
 
 outputs:
   home:
