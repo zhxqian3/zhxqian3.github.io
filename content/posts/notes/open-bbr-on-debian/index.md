@@ -5,6 +5,8 @@ draft: false
 tags: ["notes"]
 authors: ["zhxqian3"]
 summary: "。。。"
+toc: 
+  enable: false
 ---
 
 Debian10 / 11 默认的内核就是 4.19 版本的内核而且编译了 TCP BBR 模块，所以可以直接通过参数开启。

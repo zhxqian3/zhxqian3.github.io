@@ -3,6 +3,8 @@ title: 'My First Post'
 date: 2023-09-07T13:42:05+08:00
 draft: false
 summary: "我的第一篇post"
+toc: 
+  enable: false
 ---
 
 

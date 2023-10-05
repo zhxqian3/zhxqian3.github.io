@@ -6,6 +6,8 @@ draft: false
 tags: ["notes","update"]
 authors: ["zhxqian3"]
 summary: "如题"
+toc: 
+  enable: false
 ---
 
 [相关网址](https://caddyserver.com/docs/install#debian-ubuntu-raspbian)

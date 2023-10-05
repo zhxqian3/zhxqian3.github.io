@@ -5,6 +5,8 @@ draft: false
 tags: ["notes"]
 authors: ["zhxqian3"]
 summary: "如题。"
+toc: 
+  enable: false
 ---
 
 创建要作为swap分区的文件:增加512MB大小的交换分区，则命令写法如下，其中的count等于想要的块的数量（bs*count=文件大小）
