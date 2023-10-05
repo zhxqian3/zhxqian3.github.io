@@ -27,7 +27,7 @@ dateFormat = "2006-01-02"
   # 主题切换模式 ("switch", "select")
   themeChangeMode = "switch"
   [header.title]
-    name = "zhxqian3"
+    name = "你好吗？我很好"
     typeit = true
 
 # 页面底部信息配置
@@ -66,11 +66,11 @@ dateFormat = "2006-01-02"
     # 主页显示头像的 URL
     # 将你的头像文件放置于 static 或者 assets 目录下
     # 文件路径是相对于 static 或者 assets 目录的
-    avatarURL = "/favicon/favicon.png"
+    avatarURL = ""
     #  主页显示的网站标题 (支持 HTML 格式)
-    title = "你好吗？"
+    title = ""
     # 主页显示的网站副标题
-    subtitle = "我很好"
+    subtitle = ""
     # 是否为副标题显示打字机动画
     typeit = true
     # 是否显示社交账号
