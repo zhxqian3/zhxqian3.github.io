@@ -1,14 +1,13 @@
-+++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-draft = true
-tags = [""]
-searchHidden = false
-showToc = true
-author = ["zhxqian3"]
-summary = ""
-[cover]
-image = "<image path/url>"
-caption = "<text>"
-hidden = true
-+++
+---
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+subtitle: ""
+date: {{ .Date }}
+lastmod: {{ .Date }}
+draft: true
+authors: ["zhxqian3"]
+summary: ""
+tags: []
+featuredImage: ""
+hiddenFromHomePage: false
+hiddenFromSearch: false
+---

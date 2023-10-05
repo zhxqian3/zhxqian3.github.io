@@ -1,0 +1,152 @@
+#  DoIt 主题版本
+version = "0.4.X"
+# 网站名称
+title = "zhxqian3的小记"
+# 网站描述
+description = ""
+# 网站关键词
+keywords = ["Blog", "Hugo"]
+#  网站默认主题样式 ("light", "dark", "black", "auto")
+defaultTheme = "auto"
+#  日期格式
+dateFormat = "2006-01-02"
+# 网站图片, 用于 Open Graph 和 Twitter Cards
+images = "/favicon/favicon.png"
+
+#  搜索配置
+[search]
+  enable = true
+  # 搜索引擎的类型 ("algolia", "fuse")
+  type = "fuse"
+
+  # 页面头部导航栏配置
+[header]
+  # 桌面端导航栏模式 ("fixed", "normal", "auto")
+  desktopMode = "auto"
+  # 移动端导航栏模式 ("fixed", "normal", "auto")
+  mobileMode = "auto"
+  #  主题切换模式
+  # 主题切换模式 ("switch", "select")
+  themeChangeMode = "switch"
+
+# 页面底部信息配置
+[footer]
+  enable = true
+  #  自定义内容 (支持 HTML 格式)
+  custom = ''
+  #  是否显示 Hugo 和主题信息
+  hugo = true
+  #  是否显示版权信息
+  copyright = true
+  #  是否显示作者
+  author = true
+  # 网站创立年份
+  since = 2023
+
+#  Section (所有文章) 页面配置
+[section]
+  # section 页面每页显示文章数量
+  paginate = 20
+  # 日期格式 (月和日)
+  dateFormat = "01-02"
+
+#  List (目录或标签) 页面配置
+[list]
+  # list 页面每页显示文章数量
+  paginate = 20
+  # 日期格式 (月和日)
+  dateFormat = "01-02"
+
+# 主页配置
+[home]
+  # 主页个人信息
+  [home.profile]
+    enable = true
+    # 主页显示头像的 URL
+    # 将你的头像文件放置于 static 或者 assets 目录下
+    # 文件路径是相对于 static 或者 assets 目录的
+    avatarURL = ""
+    #  主页显示的网站标题 (支持 HTML 格式)
+    title = "你好吗?"
+    # 主页显示的网站副标题
+    subtitle = "我很好"
+    # 是否为副标题显示打字机动画
+    typeit = true
+    # 是否显示社交账号
+    social = false
+    # 主页文章列表
+  [home.posts]
+    enable = true
+    # 主页每页显示文章数量
+    paginate = 5
+    #  被 params.page 中的 hiddenFromHomePage 替代
+    # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
+    defaultHiddenFromHomePage = false
+
+#  文章页面配置
+[page]
+  #  是否在主页隐藏一篇文章
+  hiddenFromHomePage = false
+  #  是否在搜索结果中隐藏一篇文章
+  hiddenFromSearch = false
+  #  是否在文章开头显示系列导航
+  seriesNavigation = false
+  # 是否启用最后修改时间
+  enableLastMod = true
+  # 是否启用字数统计
+  enableWordCount = false
+  # 是否启用阅读时间估计
+  enableReadingTime = false
+  #  过时文章提示
+  [page.outdatedArticleReminder]
+    enable = false
+    # 如果文章最后更新于 90 天之前，显示提醒
+    reminder = 90
+    # 如果文章最后更新于 180 天之前，显示警告
+    warning = 180
+  #  目录配置
+  [page.toc]
+    # 是否使用目录
+    enable = true
+    #  是否保持使用文章前面的静态目录
+    keepStatic = false
+    # 是否使侧边目录自动折叠展开
+    auto = false
+  #  代码配置
+  [page.code]
+    # 是否显示代码块的复制按钮
+    copy = true
+    # 默认展开显示的代码行数
+    maxShownLines = 10
+  #  文章页面的分享信息设置
+  [page.share]
+    enable = false
+  #  评论系统设置
+  [page.comment]
+    enable = false
+  #  相关文章推荐配置
+  [page.related]
+    enable = false
+
+#  赞赏配置
+[sponsor]
+  enable = false
+
+#  TypeIt 配置
+[typeit]
+  # 每一步的打字速度 (单位是毫秒)
+  speed = 100
+  # 光标的闪烁速度 (单位是毫秒)
+  cursorSpeed = 1000
+  # 光标的字符 (支持 HTML 格式)
+  cursorChar = "|"
+  # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
+  duration = -1
+
+#  网站分析配置
+[analytics]
+  enable = false
+
+#  Cookie 许可配置
+[cookieconsent]
+  enable = false
