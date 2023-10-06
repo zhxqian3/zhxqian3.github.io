@@ -106,8 +106,9 @@ Host github.com
 
 ### git子模块添加
 ```
-git submodule [--depth=1] add [submodule-repository-url] [path]
+git submodule [--depth=1] [--branch name] add [submodule-repository-url] [path]
 ```
+- `--branch`: 设置子模块跟踪的分支
 
 ### git子模块初始化
 ```
@@ -139,3 +140,8 @@ git submodule status [--recursive]
 git submodule deinit [path] [--force]
 ```
 - `--force`: 取消初始化包含本地修改的子模块
+
+### git子模块设置跟踪分支
+```
+git submodule set-branch --branch main [path]
+```
