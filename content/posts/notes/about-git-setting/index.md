@@ -1,7 +1,7 @@
 ---
 title: '记录一下在git上的一些设置'
 date: 2023-09-22T18:05:35+08:00
-lastmod: 2023-09-22
+lastmod: 2023-10-06
 draft: false
 tags: ["notes","update"]
 authors: ["zhxqian3"]
@@ -98,3 +98,44 @@ Host github.com
 注意将`IdentityFile`后面的参数改为你的私钥所在路径。
 
 至此，配置基本完成。
+
+## 关于git子模块
+这里主要是列举常用的git子模块命令。
+
+***注意***: 如果远程仓库使用了git子模块，在克隆或拉取这个远程仓库时，git子模块并不会自动初始化或更新。
+
+### git子模块添加
+```
+git submodule [--depth=1] add [submodule-repository-url] [path]
+```
+
+### git子模块初始化
+```
+git submodule init [path]
+```
+- `[path]`: 初始化特定子模块
+
+### git子模块更新
+```
+git submodule update [--init] [--recursive] [--remote] [--merge]
+```
+- `--init`: 加入这个选项后就无需运行`git submodule init`
+- `--recursive`: 告诉 Git 检查子模块中的嵌套子模块并更新它们
+- `--remote`: 使用远程源的新内容更新
+- `--merge`: 将子模块的上游更改与本地版本合并
+
+### git子模块状态
+```
+git submodule status [--recursive]
+```
+该命令打印出 SHA-1 和每个子模块的路径。SHA-1 字符串可以具有三个不同的前缀:
+- `-`前缀标记未初始化的子模块
+- `+`标志表明签出的子模块提交与原始子模块存储库的状态不同
+- `U`前缀会提醒合并冲突
+- `--recursive`选项可在状态报告中包含嵌套子模块
+
+### git子模块结束
+```
+git submodule deinit [path] [--force]
+```
+- `--force`: 取消初始化包含本地修改的子模块
