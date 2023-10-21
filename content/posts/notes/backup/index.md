@@ -1,11 +1,11 @@
 ---
-title: "Restic"
+title: "Backup"
 subtitle: ""
 date: 2023-10-20T23:24:57+08:00
-lastmod: 2023-10-20T23:24:57+08:00
+lastmod: 2023-10-21T23:24:57+08:00
 draft: false
 authors: ["zhxqian3"]
-summary: "一个好用的备份工具"
+summary: "个人关于restic和rclone的使用，仅作记录"
 tags: ["update","tools","notes"]
 featuredImage: ""
 hiddenFromHomePage: false
@@ -16,14 +16,20 @@ toc:
 
 ## 安装
 ```
-sudo pacman -S restic
+sudo pacman -S restic rclone
 ```
 
-## 使用
+## restic
 
-### 创建存储库（本地）
+### 创建存储库
+本地：
 ```
-restic init --repo /srv/restic-repo
+restic init -r /srv/restic-repo
+```
+
+rclone：
+```
+restic -r rclone:foo:bar init
 ```
 
 ### 备份
@@ -72,4 +78,35 @@ restic -r /srv/restic-repo key list
 ```
 ```
 restic -r /srv/restic-repo key add
+```
+
+## rclone
+
+### 配置
+```
+rclone config
+```
+
+#### google drive
+https://rclone.org/drive/#making-your-own-client-id
+
+### 双向同步
+```
+rclone bisync remote1:path1 remote2:path2 [-i --dry-run]
+```
+此命令同步规则：path1 -> path2，且此命令要求两边的路径都要存在
+
+### 列出
+```
+rclone [ls|lsd|lsl]
+```
+
+### 删除
+```
+rclone purge remote:path [-i --dry-run]
+```
+
+### 创建路径
+```
+rclone mkdir remote:path
 ```
