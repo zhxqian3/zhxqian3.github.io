@@ -2,7 +2,7 @@
 title: "Backup"
 subtitle: ""
 date: 2023-10-20T23:24:57+08:00
-lastmod: 2023-10-21T23:24:57+08:00
+lastmod: 2023-10-25T23:24:57+08:00
 draft: false
 authors: ["zhxqian3"]
 summary: "个人关于restic和rclone的使用，仅作记录"
@@ -74,10 +74,7 @@ restic forget --keep-last 1 --prune
 
 #### 管理存储库密钥
 ```
-restic -r /srv/restic-repo key list
-```
-```
-restic -r /srv/restic-repo key add
+restic key [list|add|remove|passwd] [ID] -r /srv/restic-repo
 ```
 
 ## rclone
