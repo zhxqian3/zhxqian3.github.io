@@ -151,7 +151,3 @@ dateFormat = "2006-01-02"
 #  Cookie 许可配置
 [cookieconsent]
   enable = false
-
-[author]
-  name = "zhxqian3"
-  email = ""
