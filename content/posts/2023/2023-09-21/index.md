@@ -2,7 +2,7 @@
 title: '2023-09-21'
 date: 2023-09-21T22:34:44+08:00
 draft: false
-tags: ["折腾记录"]
+tags: ["日常"]
 authors: ["zhxqian3"]
 summary: "记折腾了一天来更换hugo主题结果最后啥也没成"
 toc: 

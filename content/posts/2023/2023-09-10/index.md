@@ -4,7 +4,7 @@ date: 2023-09-10T17:14:38+08:00
 draft: false
 authors: ["zhxqian3"]
 summary: "艹，变成大四老东西了"
-tags: ["生活感受"]
+tags: ["日常"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 toc: 

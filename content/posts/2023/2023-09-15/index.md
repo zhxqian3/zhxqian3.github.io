@@ -2,7 +2,7 @@
 title: '2023-09-15'
 date: 2023-09-15T20:08:52+08:00
 draft: false
-tags: ["生活感受"]
+tags: ["日常"]
 authors: ["zhxqian3"]
 summary: "看完了玉子市场和玉子爱情故事"
 featuredImage: "yuzishichang.png" 
