@@ -2,7 +2,7 @@
 title: "Backup"
 subtitle: ""
 date: 2023-10-20T23:24:57+08:00
-lastmod: 2023-10-25T23:24:57+08:00
+lastmod: 2023-12-16T23:24:57+08:00
 draft: false
 authors: ["zhxqian3"]
 summary: "个人关于restic和rclone的使用，仅作记录"
@@ -67,7 +67,7 @@ restic -r /srv/restic-repo prune
 ```
 或
 ```
-restic forget --keep-last 1 --prune
+restic -r /srv/restic-repo forget --keep-last 1 --prune
 ```
 
 ### 加密
