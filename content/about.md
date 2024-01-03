@@ -9,4 +9,4 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 ---
 
-一个废物，即将进厂。。。
+一个废物，可能连厂都进不了。
