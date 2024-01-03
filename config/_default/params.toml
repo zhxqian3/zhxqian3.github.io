@@ -27,7 +27,7 @@ dateFormat = "2006-01-02"
   # 主题切换模式 ("switch", "select")
   themeChangeMode = "switch"
   [header.title]
-    name = "你好吗？我很好"
+    name = "I Can Hear the Sea"
     typeit = true
 
 # 页面底部信息配置
