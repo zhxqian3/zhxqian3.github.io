@@ -5,7 +5,7 @@ lastmod: 2024-01-10T14:35:10+08:00
 draft: false
 authors: ["zhxqian3"]
 summary: "在linux上的alist的安装"
-tags: ["notes","update"]
+tags: ["notes","update","tools"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 toc: 
