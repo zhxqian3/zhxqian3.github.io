@@ -17,7 +17,7 @@ toc:
 
 ## 安装
 ```
-sudo pacman brightnessctl
+sudo pacman -S brightnessctl
 ```
 
 ## 设置亮度
